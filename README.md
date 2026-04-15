@@ -35,7 +35,7 @@ To run the notebooks, ensure the dataset is placed within the `data/` directory.
 
 ## Running the Project
 1. Configure your environment by installing required Python packages (PyTorch, Torchvision, h5py, scikit-learn, Jupyter, etc.).
-2. Download the PatchCamelyon (PCam) dataset and extract the HDF5 files into the local `data/` folder.
+2. Download the PatchCamelyon (PCam) dataset from `https://github.com/basveeling/pcam` and extract the HDF5 files into the local `data/` folder.
 3. Launch Jupyter Notebook (`jupyter notebook` or `jupyter lab`).
 4. Execute the specific model notebooks (`ResNet-50_architecture.ipynb`, `efficientnet_b0.ipynb`, `vgg16.ipynb`). The flow for each notebook is:
    - Configure File Paths and Hyperparameters.
